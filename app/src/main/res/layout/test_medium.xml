@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_back_testhard"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="25"
+                android:background="@drawable/style_button_test_all_exit"
+                android:text="@string/bt_exit"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewScoreName"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="25"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="end"
+                android:text="@string/result_hard_test1"
+                android:textColor="@color/color_chronometr"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewScoreMed"
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="25"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start"
+                android:text="@string/result_hard_test"
+                android:textColor="@color/color_chronometr"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewNum"
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_weight="25"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/number_medium"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageTankMedium"
+            android:layout_width="match_parent"
+            android:layout_height="467dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/background_medium_test"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLeft"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/style_buuton_test_menu"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack" />
+
+            <Button
+                android:id="@+id/buttonRight"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/style_buuton_test_menu"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

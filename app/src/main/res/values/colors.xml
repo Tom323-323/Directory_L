@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMain">#4A4E38</color>
+    <color name="colorLightMain">#767a62</color>
+    <color name="colorDarkMain">#222612</color>
+    <color name="colorWitheMain">#EBEDE4</color>
+    <color name="colorLogo">#4A4E38</color>
+    <color name="colorText">#d6dbc0</color>
+    <color name="color_back_logo">#828782</color>
+    <color name="color_text_logo">#cee7d1</color>
+    <color name="color_background_button_test">#939a79</color>
+    <color name="color_chronometr">#8E150D</color>
+
+
+
+
+
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#A11414</color>
+    <color name="colorGreen">#14971A</color>
+    <color name="colorLogoBack">#DDE3DC</color>
+        <color name="colorMainText">#FFC107</color>
+</resources>
+
+

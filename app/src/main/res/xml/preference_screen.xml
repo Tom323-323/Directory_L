@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout="@layout/settings_main"
+
+        android:lineSpacingExtra="24sp"
+        android:text="Настройки"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:title="@string/action_settings"
+        android:typeface="normal"
+        tools:text="Настройки"
+        >
+
+    </PreferenceCategory>\
+    <ListPreference
+        android:defaultValue="Вариант 1"
+        android:entries="@array/main_text_fonts"
+        android:entryValues="@array/main_text_fonts"
+        android:icon="@drawable/ic_main"
+        android:key="text_fonts"
+        android:textAlignment="viewEnd"
+        android:title="@string/main_text_size_settings_3"
+        android:visibility="visible" />
+    <ListPreference
+        android:defaultValue="Мелкий"
+        android:entries="@array/main_text_size"
+        android:entryValues="@array/main_text_size"
+        android:icon="@drawable/ic_main"
+        android:key="text_size"
+        android:textAlignment="viewEnd"
+        android:title="@string/main_text_size_settings_1"
+        android:visibility="visible" />
+    <ListPreference
+        android:defaultValue="Черный"
+        android:entries="@array/main_text_color"
+        android:entryValues="@array/main_text_color"
+        android:icon="@drawable/ic_main"
+        android:key="text_color"
+        android:textColor="@color/colorPrimaryDark"
+        android:title="@string/main_text_size_settings_2" />
+
+
+
+</PreferenceScreen>

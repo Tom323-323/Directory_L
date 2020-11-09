@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tanks"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_text2"
+            android:title="@string/tanksname"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_sau"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_text2"
+            android:title="@string/sauname"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/grp2">
+            <item
+            android:id="@+id/nav_btr"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_text2"
+            android:title="@string/btrname"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/nav_quiz"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_test"
+            android:title="@string/nav_quiz"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/grp6">
+        <item
+            android:id="@+id/inf"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_info"
+            android:title="@string/inf_1"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/grp4">
+        <item
+            android:id="@+id/free"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_free"
+            android:title="@string/version_free"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/grp5">
+        <item
+            android:id="@+id/info"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/info"
+            android:visible="true" />
+    </group>
+
+    </menu>

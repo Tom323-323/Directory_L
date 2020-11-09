@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tanksR">
+        <item>Pz.Kpfw.I (Pz.I, Panzerkampfwagen I)</item>
+        <item>Pz.Kpfw. II (Pz.II, Panzerkampfwagen II)</item>
+        <item>Pz.Kpfw. II «Luchs»</item>
+        <item>Panzerkampfwagen Neubaufahrzeug (Nb.Fz.)</item>
+        <item>PzKpfw.35(t) (LT vz.35)</item>
+        <item>Pz.Kpfw.38(t) (LT vz.38)</item>
+        <item>Pz.Kpfw.III (Panzerkampfwagen III)</item>
+        <item>PzKpfw IV (Panzerkampfwagen IV)</item>
+        <item>PzKpfw V «Panther» (Panzerkampfwagen V Panther)</item>
+        <item>PzKpfw VI «Tiger»</item>
+        <item>Panzerkampfwagen VI Ausf. B «Tiger II»</item>
+        <item> Pzkpfw.VIII «Maus»</item>
+     </string-array>
+
+    <string-array name="sauR">
+        <item>Sturmpanzer I Bison (15 cm sIG 33 Sfl.)</item>
+        <item>Panzerjäger I (4.7 cm Pak(t) Sfl auf Pz.Kpfw.I)</item>
+        <item>Hetzer (Jagdpanzer 38)</item>
+        <item>Sturmpanzer II (нем. StPzII, 15 cm s.I.G.33B Sfl)</item>
+        <item>Grille (нем. Grille)</item>
+        <item>Marder II (нем. Marder II)</item>
+        <item>Marder III (нем. Marder III)</item>
+        <item>Wespe (нем. Wespe)</item>
+        <item>Sturmgeschütz III (StuG III)</item>
+        <item>StuG IV (Sturmgeschütz IV)</item>
+        <item>StuH 42 (10,5 cm Sturmhaubitze 42)</item>
+        <item>Sturmpanzer IV</item>
+        <item>Nashorn (8.8cm PaK43/1 auf G-wagen III/IV)</item>
+        <item>Hummel (нем. Hummel)</item>
+        <item>JagdPz IV</item>
+        <item>Dicker Max (10.5cm K18 auf Panzer IVa)</item>
+        <item>«Ягдпантера» (нем. Jagdpanther)</item>
+        <item>Sturer Emil (нем. Sturer Emil)</item>
+        <item>«Фердинанд» (нем. Ferdinand)</item>
+        <item>«Штурмтигр» (нем. Sturmtiger)</item>
+        <item>«Ягдтигр» (нем. Jagdtiger)</item>
+        <item>Самоходная мортира «Карл» (нем. Gerät 040)</item>
+    </string-array>
+
+    <string-array name="brtR">
+        <item>Sd.Kfz.13 (Maschinengewehrkraftwagen)</item>
+        <item>ADGZ (Polizei-Panzerkampfwagen ADGZ)</item>
+        <item>Sd.Kfz.221 (Leichter Panzerspähwagen (M.G.)</item>
+        <item>Sd.Kfz.222 (Leichter Panzerspähwagen (2 cm) </item>
+        <item>Sd.Kfz.231 6-Rad (Schwerer Panzerspähwagen)</item>
+        <item>Pz.Spah.204(f)</item>
+        <item>Sd.Kfz.234 (Schwerer Panzerspähwagen (2 cm)</item>
+        <item>Sd.Kfz.247 (Schwerer Personenkraftwagen)</item>
+        <item>SdKfz 250 (Sonderkraftfahrzeug 250)</item>
+        <item>SdKfz 251 (Sonderkraftfahrzeug 251)</item>
+        <item>Sd.Kfz 254 Mittlerer Gepanzerter</item>
+        <item>15 cm Panzerwerfer 42 auf Sf</item>
+    </string-array>
+
+
+    <string-array name="main_text_size">
+        <item>Мелкий</item>
+        <item>Средний</item>
+        <item>Крупный</item>
+    </string-array>
+
+    <string-array name="main_text_color">
+        <item>Черный</item>
+        <item>Красный</item>
+        <item>Зеленый</item>
+    </string-array>
+
+    <string-array name="main_text_fonts">
+        <item>Вариант 1</item>
+        <item>Вариант 2</item>
+        <item>Вариант 3</item>
+        <item>Вариант 4</item>
+    </string-array>
+
+    <string-array name="quiz">
+        <item>Начать</item>
+        <item>уровень</item>
+        <item>выход</item>
+    </string-array>
+
+    <string-array name="nav_quiz">
+        <item>Начать</item>
+        <item>уровень</item>
+        <item>выход</item>
+    </string-array>
+
+    <string-array name="info">
+        <item>О приложении</item>
+        <item>Оценить приложение</item>
+        <item>Политика конфиденциальности</item>
+    </string-array>
+
+    <string-array name="free_version">
+        <item>Один день без рекламы</item>
+        <item>Версия без рекламы навсегда</item>
+    </string-array>
+
+</resources>

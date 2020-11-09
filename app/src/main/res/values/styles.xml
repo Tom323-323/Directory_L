@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4A4E38</item>
+        <item name="colorPrimaryDark">#4A4E38</item>
+        <item name="colorAccent">#4A4E38</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/side_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/side_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/side_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/side_out_right</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    ///13.09
+    <style name="NavDrawerTextStyle">
+        <item name="android:textSize">16sp</item> <!-- Размер текста -->
+        <item name="android:textAllCaps">true</item>
+        <item name="android:typeface">monospace</item>
+                    </style>
+
+    <style name="NavigationViewStyle">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:listPreferredItemHeightSmall">40dp</item><!-- menu item height-->
+        <item name="listPreferredItemHeightSmall">55dp</item><!-- menu item height-->
+        <item name="android:listPreferredItemPaddingLeft">16dp</item>
+        <item name="listPreferredItemPaddingLeft">16dp</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    ///13.09
+
+
+
+
+</resources>

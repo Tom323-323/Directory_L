@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="50dp"
+    android:background="@drawable/dialogstyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewendmed"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="35"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_loss" />
+
+        <TextView
+            android:id="@+id/textView_medend"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="30"
+            android:fontFamily="@font/merriweather_black"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/dialog_med_end"
+            android:textColor="@color/color_chronometr"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/chronomed2"
+            android:layout_width="152dp"
+            android:layout_height="58dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="15"
+            android:fontFamily="@font/merriweather_black"
+
+            android:foregroundGravity="bottom"
+            android:gravity="center"
+            android:text="@string/number_medium"
+            android:textAlignment="gravity"
+            android:textColor="@color/color_chronometr"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnnextMedEnd"
+            android:layout_width="211dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="20"
+            android:background="@drawable/style_buuton_test_menu"
+            android:fontFamily="@font/merriweather_black"
+            android:text="@string/next"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
